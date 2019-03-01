@@ -42,7 +42,7 @@ func main(){
   var linkHttp string = "https://"
   var server string = "na1"//na1 = north america, kr = korea
   var myUsername string = "Kýu"//username
-  var apiKey string = "RGAPI-77c33970-edb7-4a35-852b-5528ad28e161"//new key needs to be generated every few days
+  var apiKey string = ""//new key needs to be generated every few days, due to Riot's policy it can not be public
   var linkP1 string = ".api.riotgames.com/lol/summoner/v4/summoners/by-name/"
   var linkP2 string = "?api_key="//link = linkP1 + myUsername + linkP2 + apiKey
   var linkP3 = ".api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/"
